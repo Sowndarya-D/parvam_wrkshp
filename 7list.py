@@ -18,3 +18,7 @@ for i, fruit in enumerate(fruits, 1):
 print(f"\nTotal fruits in the list: {len(fruits)}")
 
 #using list comprehension
+l4 = [i for i in fruits if 'a' in i.lower()]
+print("\nFruits containing the letter 'a':")
+for i in l4:
+    print(i)
